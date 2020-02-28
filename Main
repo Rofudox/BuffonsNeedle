@@ -1,0 +1,32 @@
+//Der skal indsættes en package her
+
+import java.util.*;
+public class BuffonsNeedle {
+	
+	public static void main(String [] args) {
+		int l = 0, x1 = 0, x2 = 0, y2 = 0, y1 = 0;
+		
+		rules();
+		
+		Scanner console = new Scanner(System.in);
+		System.out.println("How many needels will you throw? ");
+		int needles = console.nextInt();
+		System.out.print(needles);
+		
+	}
+	
+	public static void rules() 
+	{
+		System.out.println("Space between lines = 2, and the length of the needle = 1 We will show that the ");
+		System.out.println("properabilty of a needle crossing a line is equal to PI ");
+		System.out.println("Please throw more then 30000. Anything less will show a poor resault");
+		System.out.println();
+	}
+	
+	public static void sinMath() {
+		double vinkel = Math.random()*Math.PI;
+		double a = Math.sin(vinkel);
+		double r = Math.toRadians(a);
+	}
+	
+}
